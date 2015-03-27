@@ -1,0 +1,59 @@
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+.background {
+	background: url(../images/footer_lodyas.png);
+/*	background-size: cover;
+*/	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+/*.box {
+	border: 1px solid white;
+	height: 250px; 
+	width: 250px;
+}*/
+h1{
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	display: block;
+	font-size: 4.0em;
+	padding: 0 0 10px 0;
+}
+li, a {
+	text-transform: none;
+	color: white;
+	display: inline;
+	font-size: 1.25em;
+	padding: 7px;
+	margin-left: 1%;
+	margin-right: 1%;	
+}
+.slider {
+	margin: 0 5% 0 5%;
+}
+/*.bottom-nav {
+	margin: 0 auto;
+}*/
+
+.wrapper {
+	-moz-animation: wrapper 3s forwards;
+  -webkit-animation: wrapper 3s forwards;
+  -o-animation: wrapper 3s forwards;
+  -ms-animation: wrapper 3s forwards;
+  animation: wrapper 3s forwards;
+  height: 100%;
+  left: 0;
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+margin: 0 auto;
+}
+
