@@ -3,4 +3,7 @@ $(document).ready(function() {
     	event.preventDefault();
   	    $('.title').effect( "bounce", "slow" );
   	    $('.nav').effect( "bounce", "slow" );
+
+
 });
+
