@@ -6,88 +6,112 @@
 		<title>Craig Calderone </title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">	
 		<link rel="stylesheet" href="css/style.css">
-		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" type="text/css" href="css/responsive.css">
+		
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	</head>
 <body>
-		<div class='wrapper'>
-		<div class='background'>
-        <video id="big-video-vid_html5_api" class="vjs-tech" preload="auto" data-setup="{}" webkit-playsinline="" style="position: absolute; width: 1280px; height: auto;" autoplay="" src="river.mp4" loop=""></video>
-      <div class='row'>
-			<h1 class='title'>Craig Calderone</h1>
-      </div>
-      <div class='row'>
-        <nav class='nav col-md-9 col-md-offset-2'>
+  <video id="big-video-vid_html5_api" class="vjs-tech" preload="auto" data-setup="{}" webkit-playsinline="" autoplay="" src="dock.mp4" loop=""></video>
+		<div class='wrapper row'>
+      <div class='col-md-3'>
+        <h1>Craig Calderone</h1>
+        <h2 class='title'>Web Developer</h2>
         <ul>
-          <li><a href="https://github.com/GiarcEnoredlac" target='_blank'>Github</a></li>
-          <li><a href="www.linkedin.com/in/craigcalderone/en" target='_blank'>LinkedIn</a></li>
-          <li><a href="https://twitter.com/CraigCalde" target='_blank'>Twitter</a></li>
-          <li><a href="https://www.behance.net/CraigCalde" target='_blank'>Behance</a></li>
-          <li><a href="http://blog.craigcalderone.com/" target='_blank'>Blog</a></li>
-          <li><a href="https://drive.google.com/file/d/0B2x_vfqMeSBDQ2pwSmFLang1MTQ/view?usp=sharing" target='_blank'>Resume</a></li>
-          <li><a href="mailto:Craig@CraigCalderone.com" target='_blank'>Email</a></li>
-        </ul>
-        </nav>
-        
-      </div> <!-- ROW -->
-      <div class='row'>
-			<div class='slider'>
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <li><!-- Button trigger modal -->
+              <a class="inline-link-2" data-toggle="modal" data-target="#myModal">
+                About Me
+              </a>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Hi, I'm Craig.</h4>
+      </div>
+      <div class="modal-body">
+        <img src="images/black_white.png" alt="Craig Calderone">
+        <p>I'm a tech enthusiast, traveler, amateur guitar player, thrill seeker, sporadic fitness buff and future motorcycle owner.
+        I'm a native Long Islander, but enjoy spending time exploring the greatest city in the world.
+        I'm infinitely curious and excited to design, iterate and create. I have a diverse background in banking, insurance tech, public relations tech, and communications software. My past experience has prepared me to make a profound impact in the future.
+        After 5 years in B2B SaaS sales, I understand the drive and determination it takes to succeed. I have skills in Front End engineering amounting to HTML, CSS, Javascript, jQuery, Bootstrap and the Adobe creative suite. I'm excited to use these skills and my entrepreneurial spirit to impact successful change.
+        </p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+            </li>
+            <li><a href="https://github.com/GiarcEnoredlac" target='_blank' class='inline-link-2'>Github</a></li>
+            <li><a href="http://www.linkedin.com/in/craigcalderone/en" target='_blank' class='inline-link-2'>LinkedIn</a></li>
+            <li><a href="https://twitter.com/CraigCalde"class='inline-link-2' target='_blank'>Twitter</a></li>
+            <li><a href="https://www.behance.net/CraigCalde" target='_blank' class='inline-link-2'>Behance</a></li>
+            <li><a href="http://blog.craigcalderone.com/" target='_blank' class='inline-link-2'>Blog</a></li>
+            <li><a href="https://drive.google.com/file/d/0B2x_vfqMeSBDQ2pwSmFLang1MTQ/view?usp=sharing" target='_blank' class='inline-link-2'>Resume</a></li>
+            <li><a href="mailto:Craig@CraigCalderone.com" target='_blank' class='inline-link-2'>Email</a></li>
+          </ul>
+      </div>
+      <div class='col-md-9'>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
               <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
               <li data-target="#carousel-example-generic" data-slide-to="1"></li>
               <li data-target="#carousel-example-generic" data-slide-to="2"></li>
               <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+
             </ol>
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <a href="#" target="_blank">
-                <div class="carousel-caption">
-                <h3>Krossover Konnect</h3>
+              <a href="http://krossover.herokuapp.com/" target="_blank">
+              <img src="images/krossover_mock.png" class="img-responsive" alt="Krossover">
+              <div class="carousel-caption">
+                <h2>Krossover Konnect</h2>
                 <p>Partner Project for Startup Institute.</p>
               </div>
-              <img src="images/krossover_mock.png" class='img-responsive' alt="Krossover">
-              
             </div>
             <div class="item">
               <a href="http://www.orchardfc.com/" target="_blank">
-              <img src="images/orchard_mac.png" class='img-responsive' alt="Orchard FC">
+              <img src="images/orchard_mac.png" class="img-responsive" alt="Orchard FC">
               <div class="carousel-caption">
-                <h3>Orchard FC Soccer Club</h3>
+                <h2>Orchard FC Soccer Club</h2>
                 <p>Designed for my club soccer team.</p>
               </a>
               </div>
             </div>
             <div class="item">
               <a href="http://flatironproject-exceptional-realty.bitballoon.com/" target="_blank">
-              <img src="images/excep_realty.png" class='img-responsive' alt="Exceptional Realty">
-              <div class="carousel-caption">
-                <h3>Exceptional Realty</h3>
+              <img src="images/excep_realty.png" class="img-responsive" alt="Exceptional Realty">
+              <div class="carousel-caption">               
+                <h2>Exceptional Realty</h2>
                 <p>Capstone project for Flatiron School.</p>
               </a>
               </div>
             </div>
             <div class="item">
               <a href="http://siny-heroku.herokuapp.com/" target="_blank">
-              <img src="images/Mensa_mac.png" class='img-responsive' alt="Mensa Ideahack">
+              <img src="images/Mensa_mac.png" class="img-responsive" alt="Mensa Ideahack">
               <div class="carousel-caption">
-                <h3>Greater New York Mensa</h3>
+                <h2>Greater New York Mensa</h2>
                 <p>IdeaHack Project for Startup Institute NYC</p>
               </a>
               </div>
             </div>
-            <div class="item">
-              <a href="http://swagshop.bitballoon.com/" target="_blank">
-              <img src="images/SwagShop_mac.png" class='img-responsive' alt="Exceptional Realty">
-              <div class="carousel-caption">
-                <h3>Lemon Ginger Pivot Swag Shop</h3>
-                <p>jQuery shopping cart practice project</p>
+             <div class="item">
+             <a href="http://swagshop.bitballoon.com/" target="_blank">
+              <img src="images/Swagshop_mac.png" class='img-responsive' alt="Startup Institute Swag Shop">
+              <div class="carousel-caption">               
+                <h2>Startup Institute Swag Shop</h2>
+                <p>Shopping application for SINYC apparel</p>
               </a>
               </div>
             </div>
           </div>
-
           <!-- Controls -->
           <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -97,17 +121,43 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div>
-			</div>
-    </div> <!-- ROW -->
-    
-		</div>
-		</div>
-    <script src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+</div>
+      </div>
+      <!-- <div class='row'>
+			   <h1 class='title'>Craig Calderone</h1>
+      </div>
 
+      <div class='row'> -->
+        <!-- <nav class='nav col-md-9 col-md-offset-2'>
+          <ul>
+            <li><a href="https://github.com/GiarcEnoredlac" target='_blank'>Github</a></li>
+            <li><a href="www.linkedin.com/in/craigcalderone/en" target='_blank'>LinkedIn</a></li>
+            <li><a href="https://twitter.com/CraigCalde" target='_blank'>Twitter</a></li>
+            <li><a href="https://www.behance.net/CraigCalde" target='_blank'>Behance</a></li>
+            <li><a href="http://blog.craigcalderone.com/" target='_blank'>Blog</a></li>
+            <li><a href="https://drive.google.com/file/d/0B2x_vfqMeSBDQ2pwSmFLang1MTQ/view?usp=sharing" target='_blank'>Resume</a></li>
+            <li><a href="mailto:Craig@CraigCalderone.com" target='_blank'>Email</a></li>
+          </ul>
+        </nav> -->
+       <!-- ROW -->
+  <!-- <div class="banner">
+    <ul>
+        <li><a href="http://krossover.herokuapp.com/" target="_blank"><img src="images/krossover_mock.png" class='img-responsive'  alt="Krossover"><h2>Krossover</h2>
+              <p>Description: 6-week Partner project built to connect worldwide freelancer network. lead front-end development work.</p>
+              <p>Tech: HTML5, CSS3, Javascript, jQuery, Bootstrap</p></a></li>
+        <li><a href="http://flatironproject-exceptional-realty.bitballoon.com/" target="_blank"><img src="images/excep_realty.png" class='img-responsive' alt="Exceptional Realty"></a></li>
+        <li><a href="http://www.orchardfc.com/" target="_blank"><img src="images/orchard_mac.png" class='img-responsive'alt="Orchard Soccer"></a></li>
+        <li><a href="http://siny-heroku.herokuapp.com/" target="_blank"><img src="images/Mensa_mac.png" class='img-responsive' alt="Mensa Ideahack"></a></li>
+        <li><a href="http://swagshop.bitballoon.com/" target="_blank"><img src="images/Swagshop_mac.png" class='img-responsive' alt="Startup Institute Swag Shop"></a></li>
+    </ul>
+  </div> --> <!-- Banner -->
+</div>  <!-- row -->
+</div> <!-- Wrapper  -->
 
+<script src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script src="http://unslider.com/unslider.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
