@@ -4,9 +4,9 @@ $(document).ready(function() {
   	    $('.title').effect( "bounce", "slow" );
   	    $('.nav').effect( "bounce", "slow" );
 
-  	$(function() {
-	    $('.banner').unslider();
-	});
+ //  	$(function() {
+	//     $('.banner').unslider();
+	// });
 
 });
 

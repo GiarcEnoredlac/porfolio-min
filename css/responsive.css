@@ -1,9 +1,6 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
 	ul {
 		display: inline;
-	}
-	h1 {
-		text-align: center;
 	}
 	.carousel-caption {
 		display: none;
@@ -11,10 +8,20 @@
 	.title {
 			text-align: center; 
 	}
+	body {
+		background: url(../images/stardust.png) center center;
+		background-size: cover;
+		text-align: center;
+	}
 }
 
 @media only screen and (max-width: 320px) {
 	.carousel-caption {
 		display: none;
+	}
+	body {
+		background: url(../images/stardust.png) center center;
+		background-size: cover;
+		text-align: center;
 	}
 }
