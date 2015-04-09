@@ -84,6 +84,16 @@ li, a {
 	text-align: center;
 }
 
+#modal3 <.modal-body {
+	text-align: center;
+	margin: 15px;
+	width: 100%;
+}
+#mce-MMERGE3 {
+	padding: 30px;
+
+}
+
 .inline-link-2 {
     display: block;
     border-bottom: 2px dashed #FFF;
