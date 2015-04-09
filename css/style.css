@@ -89,8 +89,13 @@ li, a {
 	margin: 15px;
 	width: 100%;
 }
+#mce-EMAIL, #mce-NAME {
+	margin-left: 20px;
+	margin: 1%;
+}
 #mce-MMERGE3 {
 	padding: 30px;
+	margin: 3%;
 
 }
 
