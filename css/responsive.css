@@ -23,5 +23,9 @@
 		background: url(../images/California_pano.png) center center;
 		background-size: cover;
 		text-align: center;
+		overflow-x: hidden;
+	}
+	h1 {
+		font-size: 4.5rem;
 	}
 }
